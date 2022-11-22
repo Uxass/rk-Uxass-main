@@ -6,11 +6,13 @@
     --text-nonedecoration: none;
 }
 body{
-    font-family: '', sans-serif;
+    font-family: 'Gothic A1', sans-serif;
     font-size: 40px;
     font-weight: 400;
     font-style: normal;
     width:1920px;
+    background-color:#A8A8A8;
+    color: var(--text-whitecolor);
 }
 .main-navigationright{
     height: 72px;
@@ -18,6 +20,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
+    
 }
 .main-navigationleft{
     height: 72px;
@@ -43,5 +46,19 @@ body{
     background-image: url("../img/phoneAndCoffe.jpg");
     height: 1080px;
     width: 1920px;
+    background-size: cover;
+}
+.icon{
+    height: 40px;
+    width: 60px;
+    box-sizing: border-box;
+    display: flex;
+}
+.lang1{
+    display: flex;
 
+}
+.lang{
+    display: flex;
+    flex-direction: column
 }
